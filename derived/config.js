@@ -6,15 +6,15 @@
 */
 
 global.prefa = ['','!','.',',','🐤','🗿']
-global.owner = ['254702713600']
-global.ownMain = '254702713600'
-global.NamaOwner = '𝚻𝚮𝚵𝚵 𝐃𝚪𝚫𝐆𝚯𝚴' //
+global.owner = ['254768801963']
+global.ownMain = '254768801963'
+global.NamaOwner = 'witty Banter' //
 global.sessionName = 'session'
 global.connect = true // 
 global.namabot = '𝚻𝚰𝐆𝚵𝚪 𝐑𝚫𝐃𝚰𝚯𝚫𝐂𝚻𝚰𝛁𝚵 𝛁2' //
 global.author = '𝚻𝚰𝐆𝚵𝚪 𝐑𝚫𝐃𝚰𝚯𝚫𝐂𝚻𝚰𝛁𝚵 𝛁2' //
 global.packname = '𝚻𝚰𝐆𝚵𝚪 𝐑𝚫𝐃𝚰𝚯𝚫𝐂𝚻𝚰𝛁𝚵 𝛁2' //
-global.autoviewstatus = process.env.autoviewstatus || "TRUE"
+global.autoviewstatus = process.env.autoviewstatus || "FALSE"
 global.welcome = false
 global.url1 = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q' //gausah diganti
 global.url2 = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q' //gausah diganti
@@ -30,7 +30,7 @@ global.mess = { //
 ingroup: 'This feature can only be used in groups.',
 admin: 'This feature is specifically for group admins.',
 notadmin: "The bot must be an admin first",
-owner: 'You are not 𝚻𝚮𝚵𝚵 𝐃𝚪𝚫𝐆𝚯𝚴.',
+owner: 'You are not Witty Banter.',
 premium: 'You are not a premium user.',
 seller: 'This feature can only be used by resellers and owners.',
 usingsetpp: `Setpp can only be used by the owner, do you think I'm stupid?`,
