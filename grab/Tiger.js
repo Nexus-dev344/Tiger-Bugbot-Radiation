@@ -219,7 +219,7 @@ year: "numeric"
 if (!sam.public) {
     if (!isDeveloper) return
 }
-let rn = ['recording'] 
+let rn = ['typing'] 
 let jd = rn[Math.floor(Math.random() * rn.length)];
 if (m.message) {
 sam.sendPresenceUpdate(jd, from)
@@ -565,7 +565,7 @@ var lod = [
 "> 𝐇𝐞𝐥𝐥𝐨 𝐇𝐮𝐦𝐚𝐧 🇰🇪",
 "> 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐦𝐲 𝐆𝐫𝐞𝐚𝐭𝐞𝐬𝐭 𝐌𝐚𝐬𝐭𝐞𝐫 🕊️",
 "> 𝐇𝐚𝐩𝐩𝐲 𝐓𝐨 𝐒𝐞𝐫𝐯𝐞 𝐘𝐨𝐮 🦋",
-"> 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 .......𝐉𝐢𝐧𝐱 🦄",
+"> 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 .......witty 🦄",
 ]
 let { key } = await sam.sendMessage(from, {text: ''})
 
@@ -597,8 +597,8 @@ const reply = async (teks) => {
             externalAdReply: {
                 showAdAttribution: false,
                 renderLargerThumbnail: false,
-                title: `𝐉𝐢𝐧𝐱🦄`,
-                body: `𝐛𝐲 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`,
+                title: `wityy🦄`,
+                body: `𝐛𝐲 witty`,
                 previewType: "VIDEO",
                 thumbnailUrl: `https://telegra.ph/file/551afec95ef19903d1a75.jpg`,
                 sourceUrl: `${global.url1}`,
@@ -896,14 +896,14 @@ let nesy = `
  ┃ ✰ 𝐥𝐢𝐬𝐭𝐛𝐥𝐨𝐜𝐤
  ┗━━━━━━━━━━━━━━━━━◈
 > 𝐉𝐢𝐧𝐱 𝐰𝐚𝐬 𝐢𝐧𝐯𝐞𝐧𝐭𝐞𝐝 ® 2024 
-> 𝐁𝐘 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`
+> 𝐁𝐘 witty banter `
 sam.sendMessage(m.chat, { 
 	           text: nesy,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: false,
                             title: `𝐉𝐈𝐍𝐗`,
-                            body: `𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`,
+                            body: `witty Banter`,
                             thumbnailUrl: `https://telegra.ph/file/d945b02dab1726a2bc763.jpg`, 
                             sourceUrl: `https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e`,
                             mediaType: 1,
@@ -941,7 +941,7 @@ let nesy = `
  ┃ ✰ 𝐠𝐢𝐭𝐜𝐥𝐨𝐧𝐞
  ┗━━━━━━━━━━━━━━━━━◈
 "> 𝐉𝐢𝐧𝐱 𝐰𝐚𝐬 𝐢𝐧𝐯𝐞𝐧𝐭𝐞𝐝 ® 2024",
-> 𝐁𝐘 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`
+> 𝐁𝐘 witty banter `
 sam.sendMessage(m.chat, { 
 	           text: nesy,
                     contextInfo: {
